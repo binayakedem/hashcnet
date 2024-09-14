@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className='mx-4 md:mx-12 lg:mx-24 '> 
     <div className='flex flex-row justify-between items-center gap-3 px-4'>
         <div className='h-12 md:h-14 overflow-hidden '>
-            <img className='h-full w-full object-cover' src={logo} alt="logo" />
+            <NavLink to="/" cursor="pointer"><img className='h-full w-full object-cover' src={logo} alt="logo" /></NavLink>
         </div>
         <div className='lg:flex hidden lg:flex-row lg:gap-8 text-black lg:font-semibold'>
         <NavLink to='/'className={({ isActive }) => isActive ? 'text-[#053FAA] bg-dark-900' : 'hover:text-[#053FAA] duration-100 ease-in-out'}>
@@ -47,8 +47,8 @@ const Navbar = () => {
     </div>
     <div className={`bg-[#fefefe] z-50 fixed top-0 right-0 flex flex-col justify-between items-start p-4  md:w-1/2 w-full transform duration-500 ease-in-out ${toggle ? 'translate-x-0' : 'translate-x-[900px]'}`}>
         <div className='flex flex-row w-full justify-between items-center '>
-        <div className='h-12 overflow-hidden '>
-            <img className='h-full w-full object-cover' src={logo} alt="logo" />
+        <div className='h-8 md:h-12 overflow-hidden '>
+            <NavLink to="/" cursor="pointer"><img className='h-full w-full object-cover' src={logo} alt="logo" /></NavLink>
         </div>
         <div className='text-xl text-black'>
         <FaRegWindowClose onClick={()=>setToggle(!toggle)}/>
