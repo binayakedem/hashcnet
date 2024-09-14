@@ -14,7 +14,7 @@ const Offerings = () => {
             <hr border="black"/>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3  items-center ">
-            <div data-aos='zoom-in-right' data-aos-duration='1000' className='flex flex-col gap-4 font-roboto'>
+            <div data-aos='zoom-in-up' data-aos-duration='1000' className='flex flex-col gap-4 font-roboto'>
                 <h1 className= {theme==='light'?'font-semibold text-lg md:font-bold md:text-xl text-gray-900':'font-semibold text-lg md:font-bold md:text-xl text-[#ffe699]'}>AAA with CRM</h1>
                 <p> • Comprehensive Multi-Services </p>
                 <p> • Security and Reliability</p>
@@ -31,7 +31,7 @@ const Offerings = () => {
             <div className='overflow-hidden'>
                 <img data-aos='zoom-in' data-aos-duration='1500' className='object-cover h-full w-full cursor-pointer hover:scale-110 duration-500' src={offers} alt="offers" />
             </div>
-            <div data-aos='zoom-in-left' data-aos-duration='2000' className='flex flex-col gap-4  '>
+            <div data-aos='zoom-in-down' data-aos-duration='2000' className='flex flex-col gap-4  '>
                 <h1 className={theme==='light'?'font-semibold text-lg md:font-bold md:text-xl text-gray-900':'font-semibold text-lg md:font-bold md:text-xl text-[#ffe699]'}>Network Solutions</h1>
                 <p> •  Professional Network Services </p>
                 <p> • Certificate Expertise</p>
