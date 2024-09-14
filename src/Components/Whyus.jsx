@@ -42,7 +42,7 @@ business
  </p>
             </div>
         </div>
-        <div data-aos="zoom-out-up" data-aos-duration="2000" className='bg-[#fefefe] p-5 shadow-black shadow-md rounded-lg flex flex-col gap-4'>
+        <div data-aos="zoom-in" data-aos-duration="2000" className='bg-[#fefefe] p-5 shadow-black shadow-md rounded-lg flex flex-col gap-4'>
             <div className='overflow-hidden h-20'>
                 <img className='h-full object-cover' src={quality} alt="integrity" />
             </div>
@@ -55,7 +55,7 @@ exceeding industry
 standards</p>
             </div>
         </div>
-        <div data-aos="zoom-out-down" data-aos-duration="2400" className='bg-[#fefefe] p-5 shadow-black shadow-md rounded-lg flex flex-col gap-4'>
+        <div data-aos="zoom-in" data-aos-duration="2400" className='bg-[#fefefe] p-5 shadow-black shadow-md rounded-lg flex flex-col gap-4'>
             <div className='overflow-hidden h-20'>
                 <img className='h-full object-cover' src={innovation} alt="integrity" />
             </div>
@@ -66,8 +66,8 @@ stay ahead of technological
 advancements</p>
             </div>
         </div>
-        <div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic" data-aos-duration="2800" className='bg-[#fefefe] p-5 shadow-black shadow-md rounded-lg flex flex-col gap-4'>
+        <div data-aos="zoom-in"
+      data-aos-duration="2800" className='bg-[#fefefe] p-5 shadow-black shadow-md rounded-lg flex flex-col gap-4'>
             <div className='overflow-hidden h-20'>
                 <img className='h-full object-cover' src={centric} alt="integrity" />
             </div>

@@ -7,7 +7,7 @@ const data= [
     { id: 1, name: 'DWH', picture: dwh},
     { id: 2, name: ' MPLS', picture: mpls},
     { id: 3, name: ' SR MPL-TE', picture: sr },
-    { id: 3, name: 'Broadband Network Technology (BNG)', picture: bng },
+    { id: 4, name: 'Broadband Network Technology (BNG)', picture: bng },
   ];
   
   export default data;

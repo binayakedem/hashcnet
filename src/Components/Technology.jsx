@@ -19,8 +19,8 @@ const Technology = () => {
             key={tech.id} 
               className='h-96 shadow-black flex flex-col justify-center items-center border border-white shadow-lg rounded-lg overflow-hidden'>
               <div className=' h-72 md:h-96 overflow-hidden '>
-                <img data-aos="fade-up"
-     data-aos-duration="3000" className='h-72 md:h-96 object-fit hover:scale-125 duration-700 ease-in-out cursor-pointer' src={tech.picture} alt={tech.name} />
+                <img data-aos="zoom-in"
+     data-aos-duration="2000" className='h-72 md:h-96 object-fit hover:scale-125 duration-700 ease-in-out cursor-pointer' src={tech.picture} alt={tech.name} />
               </div>
               <div className={theme==='light'?'text-gray-900 font-semibold text-xl text-center ':'text-[#ffe699] font-semibold text-xl text-center'}>
                 <h1>{tech.name}</h1>

@@ -13,11 +13,10 @@ const Uniques = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-3 lg:gap-8">
             <div className={theme==='light'?'flex flex-col gap-4 bg-gray-50 text-gray-900 p-4 rounded shadow-mdmd':'flex flex-col gap-4 bg-[#252525] p-4 rounded shadow-md'}>
-                <div>
+                <div data-aos="zoom-in"
+      data-aos-duration="1500">
                 <h1 className={theme==='light'?'font-semibold text-lg md:font-bold md:text-xl font-roboto text-gray-800':'font-semibold text-lg md:font-bold font-roboto md:text-xl text-[#ffe699]'}>Think Out Of Box</h1>
-                    <p data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">Innovation is central to 
+                    <p >Innovation is central to 
 everything we do. We 
 constantly explore emerging 
 technologies, methodologies, 
@@ -29,15 +28,15 @@ IoT we are dedicated to
 pushing the boundaries of 
 what’s possible.</p>
                 </div>
-                <div>
-                    <img data-aos="flip-right"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="3000" src="https://static.vecteezy.com/system/resources/previews/011/649/645/original/think-out-of-the-box-3d-render-icon-illustration-png.png" alt="unique" />
+                <div data-aos="flip-right"
+      data-aos-duration="1500">
+                    <img src="https://static.vecteezy.com/system/resources/previews/011/649/645/original/think-out-of-the-box-3d-render-icon-illustration-png.png" alt="unique" />
                 </div>
 
             </div>
             {/* customer first approach */}
-            <div data-aos="flip-right" data-aos-duration="2000"  className={theme==='light'?'flex flex-col gap-4 bg-gray-50 text-gray-900 p-4 rounded shadow-md':'flex flex-col gap-4 bg-[#252525] p-4 rounded shadow-md'}>
+            <div data-aos="zoom-out"
+      data-aos-duration="2000"  className={theme==='light'?'flex flex-col gap-4 bg-gray-50 text-gray-900 p-4 rounded shadow-md':'flex flex-col gap-4 bg-[#252525] p-4 rounded shadow-md'}>
                 <div>
                     <h1 className={theme==='light'?'font-semibold text-lg md:font-bold md:text-xl font-roboto text-gray-800':'font-semibold text-lg md:font-bold font-roboto md:text-xl text-[#ffe699]'}>CustomerFirst  
                     Approach</h1>
@@ -58,10 +57,11 @@ personalized service.</p>
 
             {/* transformative information */}
             <div  className={theme==='light'?'flex flex-col gap-4 bg-gray-50 text-gray-900 p-4 rounded shadow-md':'flex flex-col gap-4 bg-[#252525] p-4 rounded shadow-md'}>
-                <div>
+                <div data-aos="zoom-in-dow"
+      data-aos-duration="2200">
                 <h1 className={theme==='light'?'font-semibold text-lg md:font-bold md:text-xl font-roboto text-gray-800':'font-semibold text-lg md:font-bold font-roboto md:text-xl text-[#ffe699]'}>Transformative  
                 Leadership</h1>
-                    <p  data-aos="flip-up" data-aos-duration="2000"> As industry veterans, we are 
+                    <p > As industry veterans, we are 
 dedicated to sharing our 
 CustomerFirst  
 Approach
@@ -73,8 +73,9 @@ industry events to drive
 technological advancement across 
 various domains.</p>
                 </div>
-                <div>
-                    <img data-aos="flip-right" data-aos-duration="2000" src="https://cdn3d.iconscout.com/3d/premium/thumb/businessman-with-successful-leadership-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--leader-success-business-and-investment-pack-illustrations-5438367.png" alt="unique" />
+                <div data-aos="zoom-left"
+      data-aos-duration="1500">
+                    <img  src="https://cdn3d.iconscout.com/3d/premium/thumb/businessman-with-successful-leadership-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--leader-success-business-and-investment-pack-illustrations-5438367.png" alt="unique" />
                 </div>
 
             </div>
@@ -82,13 +83,15 @@ various domains.</p>
 
 {/* result oriented delivery
  */}
- <div data-aos="zoom-in-down" data-aos-duration="2000" className={theme==='light'?'flex flex-col gap-4 bg-gray-50 text-gray-900 p-4 rounded shadow-md':'flex flex-col gap-4 bg-[#252525] p-4 rounded shadow-md'}>
-                <div>
+ <div  className={theme==='light'?'flex flex-col gap-4 bg-gray-50 text-gray-900 p-4 rounded shadow-md':'flex flex-col gap-4 bg-[#252525] p-4 rounded shadow-md'}>
+                <div data-aos="zoom-in-up"
+      data-aos-duration="1500">
                     <h1 className={theme==='light'?'font-semibold text-lg md:font-bold md:text-xl font-roboto text-gray-800':'font-semibold text-lg md:font-bold font-roboto md:text-xl text-[#ffe699]'}>Result Oriented  
                     Delivery</h1>
                     <img src="https://cdn3d.iconscout.com/3d/premium/thumb/business-goal-with-trophy-5744089-4817282.png?f=webp" alt="unique" />
                 </div>
-                <div>
+                <div data-aos="zoom-out-down"
+      data-aos-duration="1500">
                     <p> Our success is defined by the 
 real results we achieve for our 
 clients. Whether it's improving 

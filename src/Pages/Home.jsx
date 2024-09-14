@@ -10,17 +10,15 @@ import Body from '../Components/Body'
 import Technology from '../Components/Technology'
 const Home = () => {
   return (
-    <div className='font-roboto bg-[#545353]'>
+    <div className='font-roboto bg-[#545353] overflow-hidden'>
       <Body/>
       <About/>
-      
       <Offers/>
       <Technology/>
       <Uniques/>
       <Whyus/>
       <Strategicpartner/>
       <Upcommingproject/>
-     
       <Clients/>
     </div>
   )
