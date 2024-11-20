@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
             <div className='flex flex-row gap-3 items-center my-1 text-[#ffe699]'>
             <FaPhone color='green'/>
-              <p className={theme==='light'?' text-gray-950':'text-[#e1e1e1]'}> +977 9801001168</p>
+              <p className={theme==='light'?' text-gray-950':'text-[#e1e1e1]'}> +977 9801001169</p>
             </div>
             <div className='flex flex-row gap-3 my-2 text-[#ffe699]'>
               <FaInstagram  color='red' cursor="pointer"/>

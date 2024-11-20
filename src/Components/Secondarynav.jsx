@@ -13,7 +13,7 @@ const Secondarynav= () => {
             <div className=' flex flex-row justify-between  items-center w-[74vw] py-[10px]'>
                 <div className='md:hidden hidden lg:flex lg:flex-row '>
                     <p className='flex flex-row font-sans '><MdHeadset color='blue' className='mt-1 mr-1' size={16} /><span>24x7 Technical Support</span></p>
-                    <p className='flex flex-row font-sans ml-4'><FaPhone color='green' className="flex flex-row items-center justify-center mt-1 mr-1" size={13} /><span> +977 9801001168</span></p>
+                    <p className='flex flex-row font-sans ml-4'><FaPhone color='green' className="flex flex-row items-center justify-center mt-1 mr-1" size={13} /><span> +977 9801001169</span></p>
 
                 </div>
                 <div className='flex flex-row  lg:flex lg:flex-row'>

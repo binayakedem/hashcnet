@@ -35,7 +35,7 @@ const Footer = () => {
                     <h1 className='text-gray-900 font-play font-semibold text-xl md:font-bold md:text-2xl'>Contact Us</h1>
                     <p className='flex flex-row justify-center gap-2'><FaSearchLocation  size={30} color='blue'/>Shankhamul, Lalitpur</p>
                     <p className='flex flex-row items-center gap-2 hover:text-blue-600 duration-200 ease-in-out cursor-pointer'><IoMailOpenSharp color='red'/>info@hashcnet.com.np</p>
-                    <p className='flex flex-row justify-center gap-2'><FaPhone color='green'/> +977 9801001168</p>
+                    <p className='flex flex-row justify-center gap-2'><FaPhone color='green'/> +977 9801001169</p>
 
                 </div>
                 <div className='flex flex-col text-blue-600'>
