@@ -6,6 +6,7 @@ import logo from '../assets/logo.png'
 import { FaPhone } from "react-icons/fa";
 import { useContext } from 'react'
 import { ThemeContext } from '../Context/ThemeContext'
+import { NavLink } from 'react-router-dom';
 const Footer = () => {
     const{theme}=useContext(ThemeContext)
   return (
@@ -41,13 +42,24 @@ const Footer = () => {
                 <div className='flex flex-col text-blue-600'>
                     <h1 className='font-semibold text-xl md:font-bold md:text-2xl font-play text-gray-900'>Links</h1>
                     <div className='flex flex-row items-center gap-2'>
-                    <PiGreaterThanBold /><a href="/about">About</a>
+                        <NavLink to="/about">
+                    About
+                        </NavLink>
                     </div>
                     <div className='flex flex-row items-center gap-2'>
-                    <PiGreaterThanBold /><a href="/mission">Mission</a>
+                        <NavLink to="/mission">
+                        Mission
+                        </NavLink>
                     </div>
                     <div className='flex flex-row items-center gap-2'>
-                    <PiGreaterThanBold /><a href="/contact">Contact Us</a>
+                        <NavLink to="/contact">
+                    Contact Us
+                        </NavLink>
+                    </div>
+                    <div className='flex flex-row items-center gap-2'>
+                        <NavLink to="/offer">
+                    Offer
+                        </NavLink>
                     </div>
                 </div>
             </div>
