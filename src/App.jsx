@@ -9,8 +9,6 @@ import Aaacrm from "./Components/Aaacrm"
 import Home from './Pages/Home'
 import Offerpage from "./Pages/Offerpage"
 import Mission from './Pages/Missionpage'
-import Blog from "./Components/Blog"
-import SingleBlog from "./Pages/SingleBlog"
 import Secondarynav from "./Components/Secondarynav"
 import 'aos/dist/aos.css'
 import { FaLevelUpAlt } from "react-icons/fa";
@@ -55,8 +53,6 @@ function App() {
       <Route path='/offer' element={<Offerpage/>}/>
       <Route path='/mission' element={<Mission/>}/>
       <Route path='/aaacrm' element={<Aaacrm/>}/>
-      <Route path="/blog" element={<Blog/>}/>
-      <Route path="/blog/:id" element={<SingleBlog/>}/>
      </Routes>
      <button
           onClick={scrollToTop}

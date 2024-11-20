@@ -33,10 +33,7 @@ const Navbar = () => {
         </NavLink>            
         <NavLink to='/contact'className={({ isActive }) => isActive ? 'text-[#053FAA] bg-dark-900' : 'hover:text-[#053FAA] duration-100 ease-in-out'}>
           Contact
-        </NavLink>            
-        <NavLink to='/blog'className={({ isActive }) => isActive ? 'text-[#053FAA] bg-dark-900' : 'hover:text-[#053FAA] duration-100 ease-in-out'}>
-          Blog
-        </NavLink>            
+        </NavLink>                       
         </div>
         <div className='lg:flex lg:flex-row hidden'>
             <p  className='flex flex-row justify-center cursor-pointer items-center gap-2 text-lg px-8 py-1  rounded-3xl bg-[#0849A8] text-white hover:bg-[#0849FF] duration-200 ease-in-out'onClick={toggleTheme} >Mode {theme === 'light' ? <FaMoon color='yellow'/> : <FaSun color='yellow'/>}</p>
@@ -68,9 +65,7 @@ const Navbar = () => {
         <NavLink to='/contact'className={({ isActive }) => isActive ? 'text-[#053FAA] bg-dark-900' : 'hover:text-[#053FAA] duration-100 ease-in-out'}>
           Contact
         </NavLink>                      
-        <NavLink to='/blog'className={({ isActive }) => isActive ? 'text-[#053FAA] bg-dark-900' : 'hover:text-[#053FAA] duration-100 ease-in-out'}>
-          Blog
-        </NavLink>    
+   
         <p className='flex flex-row w-full justify-center items-center gap-2  px-4  rounded-3xl bg-[#0849A8] text-white hover:bg-[#0849FF] duration-200 ease-in-out' onClick={toggleTheme} >Mode {theme === 'light' ? 'Dark' : 'Light'}<FaMoon /></p>
         </div>
       
