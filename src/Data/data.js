@@ -4,9 +4,9 @@ import bng from '../assets/bng1.png'
 import sr from '../assets/sr1.png'
 import mpls from '../assets/mpls.png'
 const data= [
-    { id: 1, name: 'xDWH', picture: dwh},
+    { id: 1, name: 'xWDM', picture: dwh},
     { id: 2, name: ' MPLS', picture: mpls},
-    { id: 3, name: ' SR MPL-TE', picture: sr },
+    { id: 3, name: ' SR MPLS-TE', picture: sr },
     { id: 4, name: 'Broadband Network Technology (BNG)', picture: bng },
   ];
   

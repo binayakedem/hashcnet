@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <h1 className='font-roboto'>Enhancing Experience with enhanced technology.</h1>
-                    <a className='text-[#0448AA] font-semibold' href="/about">View More</a>
+                    <NavLink className='text-[#0448AA] font-semibold' to="/about">View More</NavLink>
                     <div className='flex flex-row gap-3 my-4'>
                     <FaInstagram color='red'/>
                     < FaFacebook color='blue'/>

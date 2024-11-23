@@ -47,7 +47,7 @@ business
                 <img className='h-full object-cover' src={quality} alt="integrity" />
             </div>
             <div className='flex flex-col gap-4'>
-                <h1 className='font-semibold text-lg md:font-bold md:text-xl text-[#000000]'>Sevice Quality</h1>
+                <h1 className='font-semibold text-lg md:font-bold md:text-xl text-[#000000]'>Sevice</h1>
                 <p className='text-gray-900'>  We are committed to 
 delivering the highest 
 quality of service, 

@@ -32,7 +32,7 @@ const Body = () => {
       <div className=" relative z-10 flex items-center  h-full bg-black bg-opacity-20">
         <div className='mx-4 md:mx-12 lg:mx-24'>
           
-        <h1 className="text-white font-bold z-20  lg:text-3xl md:text-xl text-lg font-roboto ">We Are <span className='text-blue-500'>Leading</span></h1>
+        <h1 className="text-white font-bold z-20  lg:text-3xl md:text-xl text-lg font-roboto ">We Are <span className='text-blue-500'>Leading </span>Solution Provider</h1>
         <h1 className="text-white font-bold z-20  lg:text-3xl md:text-xl text-lg font-roboto ">for ISPs, NSPs, government entities, and enterprises</h1>
         <h1 className="text-white font-bold z-20  lg:text-3xl md:text-xl text-lg font-roboto ">Agency.</h1>
           <button className='bg-[#0849A8] text-white px-6 py-2 mt-10 font-semibold md:text-lg'>Learn More</button>
